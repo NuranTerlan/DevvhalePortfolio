@@ -1,0 +1,25 @@
+<svg width="300" height="357" viewBox="0 0 300 357" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M299.492 0H0V357H299.492V0Z" fill="#3F3D56"/>
+<path d="M255.427 96.7406H44.8117V105.703H255.427V96.7406Z" fill="#E0E0E0"/>
+<path d="M255.427 155.743H44.8117V164.705H255.427V155.743Z" fill="#E0E0E0"/>
+<path d="M255.427 171.427H44.8117V180.389H255.427V171.427Z" fill="#E0E0E0"/>
+<path opacity="0.6" d="M255.427 140.059H188.956V149.021H255.427V140.059Z" fill="#3AD29F"/>
+<path d="M185.222 208.023H118.751V216.985H185.222V208.023Z" fill="#FF6584"/>
+<g opacity="0.5">
+<path opacity="0.5" d="M252.435 343.381C268.973 343.381 282.38 329.974 282.38 313.436C282.38 296.898 268.973 283.491 252.435 283.491C235.897 283.491 222.49 296.898 222.49 313.436C222.49 329.974 235.897 343.381 252.435 343.381Z" fill="url(#paint0_linear)"/>
+</g>
+<path d="M252.435 341.619C268 341.619 280.618 329.001 280.618 313.436C280.618 297.871 268 285.253 252.435 285.253C236.87 285.253 224.252 297.871 224.252 313.436C224.252 329.001 236.87 341.619 252.435 341.619Z" fill="#69F0AE"/>
+<path d="M240.619 309.179L251.187 318.867L266.16 296.849L271.444 301.253L251.187 327.674L236.215 310.941L240.619 309.179Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="252.435" y1="343.381" x2="252.435" y2="283.491" gradientUnits="userSpaceOnUse">
+<stop stop-color="#808080" stop-opacity="0.25"/>
+<stop offset="0.53514" stop-color="#808080" stop-opacity="0.12"/>
+<stop offset="1" stop-color="#808080" stop-opacity="0.1"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="299.492" height="357" fill="white"/>
+</clipPath>
+</defs>
+</svg>
