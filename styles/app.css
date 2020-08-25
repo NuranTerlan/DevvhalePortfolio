@@ -26,6 +26,18 @@ h1 {
   font-weight: bold;
 }
 
+@media (--t) {
+  h1 {
+    font-size: 52px;
+  }
+}
+
+@media (--m) {
+  h1 {
+    font-size: 35px;
+  }
+}
+
 .theme {
   color: var(--c-theme);
 }

@@ -11,3 +11,9 @@
 
   --s-layout-gap: 70px;
 }
+
+@media (--m) {
+  :root {
+    --s-layout-gap: 40px;
+  }
+}
