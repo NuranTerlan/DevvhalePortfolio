@@ -1,5 +1,3 @@
-import React from "react";
-
 import {
   Home,
   Information,
@@ -10,6 +8,12 @@ import {
   GithubOriginal,
   FacebookOriginal,
 } from "../components/icons/index";
+
+export const SIZE = {
+  TABLET_SIZE: 1000,
+  MOBILE_SIZE: 700,
+  DESK_SIZE: 1270,
+};
 
 export const MENU = [
   {
