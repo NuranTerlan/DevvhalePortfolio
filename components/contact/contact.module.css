@@ -1,0 +1,25 @@
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 99px;
+  background-color: var(--c-primary-70);
+  dispay: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 300ms;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--c-gray-20);
+
+    svg {
+      path {
+        fill: var(--c-theme);
+      }
+    }
+  }
+
+  & + .button {
+    margin-left: 15px;
+  }
+}
