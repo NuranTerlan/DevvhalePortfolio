@@ -6,6 +6,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="robots" content="index, follow" />
         </Head>
         <body>
           <Main />
