@@ -2,8 +2,11 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  height: 60px;
+  min-height: 60px;
   padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 99px;
   background-color: var(--c-gray-20);
 
@@ -16,5 +19,29 @@
     margin-right: 25px;
     width: 20px;
     height: 20px;
+  }
+}
+
+@media (--t) {
+  .item {
+    padding-left: 15px;
+
+    h1 {
+      font-size: 18px;
+    }
+
+    svg {
+      margin-right: 20px;
+      width: 17px;
+      height: 17px;
+    }
+  }
+}
+
+@media (--m) {
+  .item {
+    h1 {
+      font-size: 15px;
+    }
   }
 }
