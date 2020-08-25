@@ -26,6 +26,7 @@ const HomePage = () => {
   return (
     <>
       <Head>
+        <link rel="shortcut icon" href="/static/home.svg" />
         <title>Home &sdot; DEVVHALE Promotional Announcements</title>
         <meta
           name="description"
