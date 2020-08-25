@@ -1,0 +1,24 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    color: var(--c-gray);
+    text-align: center;
+    max-width: 780px;
+  }
+
+  svg {
+    width: 50px;
+    height: 50px;
+
+    path {
+      fill: var(--c-theme);
+    }
+  }
+}
