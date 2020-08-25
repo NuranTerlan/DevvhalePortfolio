@@ -13,3 +13,9 @@
     margin-right: auto;
   }
 }
+
+@media (--m) {
+  .layout {
+    grid-template-rows: 80px 1fr 80px;
+  }
+}
