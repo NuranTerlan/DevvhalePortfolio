@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Layout from "./../components/layout/index";
-import useWindowSize from "./../hooks/useWindowSize";
+// import useWindowSize from "./../hooks/useWindowSize";
 import Section from "./../components/section/index";
 import Bound from "./../components/bound";
 import Title from "./../components/title/index";
@@ -21,7 +21,7 @@ import SvgReact from "./../components/icons/React";
 import Privilege from "../components/privilege";
 
 const HomePage = () => {
-  const size = useWindowSize();
+  // const size = useWindowSize();
 
   return (
     <>

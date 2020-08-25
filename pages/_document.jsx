@@ -7,6 +7,7 @@ class MyDocument extends Document {
         <Head>
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="robots" content="index, follow" />
+          <meta name="googlebot" content="index" />
         </Head>
         <body>
           <Main />
