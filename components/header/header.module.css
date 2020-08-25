@@ -12,7 +12,7 @@
   top: 0;
 
   .logo {
-    font-size: 6.5em;
+    font-size: 6.3em;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -32,6 +32,20 @@
 
     & + * {
       margin-left: 15px;
+    }
+  }
+}
+
+@media (--m) {
+  .header {
+    .logo {
+      font-size: 5.2em;
+    }
+
+    .box {
+      & + * {
+        font-size: 15px;
+      }
     }
   }
 }

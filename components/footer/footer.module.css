@@ -15,3 +15,11 @@
     }
   }
 }
+
+@media (--m) {
+  .footer {
+    h1 {
+      font-size: 15px;
+    }
+  }
+}
