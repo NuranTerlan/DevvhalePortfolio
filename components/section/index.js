@@ -1,5 +1,6 @@
 import React from "react";
 import cn from "classnames";
+import useWindowSize from "./../../hooks/useWindowSize";
 
 import styles from "./section.module.css";
 
