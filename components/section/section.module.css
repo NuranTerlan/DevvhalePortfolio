@@ -11,3 +11,11 @@
     align-self: center;
   }
 }
+
+@media (--m) {
+  .section {
+    h1 {
+      text-align: center;
+    }
+  }
+}
