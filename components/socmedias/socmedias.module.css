@@ -1,0 +1,8 @@
+.contacts {
+  display: flex;
+  align-items: center;
+
+  & > div {
+    display: flex;
+  }
+}
