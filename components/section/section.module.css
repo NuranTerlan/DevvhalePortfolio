@@ -1,0 +1,13 @@
+.section {
+  width: 100%;
+  height: auto;
+  margin-top: var(--s-layout-gap);
+  display: grid;
+
+  svg {
+    width: 100%;
+    font-size: 20rem;
+    justify-self: center;
+    align-self: center;
+  }
+}
