@@ -14,7 +14,11 @@ const SocialMedias = ({ className, ...props }) => {
   return size.width > 880 ? (
     <nav className={cn(styles.contacts, className)} {...props}>
       {CONTACTS.map((contact) => {
-        return <Contact key={contact.key}>{contact.icon}</Contact>;
+        return (
+          <Contact aria-label={contact.key} key={contact.key}>
+            {contact.icon}
+          </Contact>
+        );
       })}
     </nav>
   ) : (
