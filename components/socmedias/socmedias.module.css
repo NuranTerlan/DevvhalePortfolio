@@ -6,3 +6,15 @@
     display: flex;
   }
 }
+
+.burger {
+  width: 60px;
+  height: 60px;
+}
+
+@media (--m) {
+  .burger {
+    width: 50px;
+    height: 50px;
+  }
+}
