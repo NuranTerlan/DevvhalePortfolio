@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@svgr/cli": "^5.4.0",
+    "postcss-custom-media": "^7.0.8",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.2.3"
   }
