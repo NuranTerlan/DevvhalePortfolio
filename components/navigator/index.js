@@ -7,10 +7,10 @@ import styles from "./navigator-button.module.css";
 
 const NavigatorButton = ({ children, className, ...props }) => {
   return (
-    <nav className={cn(styles.button, className)} {...props}>
+    <button className={cn(styles.button, className)} {...props}>
       {children}
       <ChevronDown className={styles.downSvg} />
-    </nav>
+    </button>
   );
 };
 
