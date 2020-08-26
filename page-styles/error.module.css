@@ -1,0 +1,38 @@
+.error {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+    &:nth-child(1) {
+      font-size: 100px;
+      margin-bottom: 20px;
+    }
+    &:nth-child(2) {
+      font-weight: 500;
+      font-style: italic;
+      color: var(--c-gray);
+    }
+  }
+
+  .button {
+    padding: 13px 22px;
+    font-weight: bold;
+    border-radius: 99px;
+    background-color: var(--c-theme-hover);
+    color: var(--c-primary);
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all 300ms;
+
+    &:hover {
+      background-color: var(--c-theme);
+      transform: translateY(-4px);
+    }
+  }
+}
