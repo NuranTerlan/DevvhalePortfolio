@@ -7,6 +7,8 @@ import Bound from "./../components/bound";
 import Title from "./../components/title/index";
 import Quote from "./../components/quote/index";
 
+import styles from "./../page-styles/business.module.css";
+
 const Business = () => {
   return (
     <>
@@ -24,7 +26,11 @@ const Business = () => {
       </Head>
 
       <Layout>
-        <Section></Section>
+        <Section>
+          <h1>
+            Business Offers and <span className="theme">Job Promotion</span>
+          </h1>
+        </Section>
       </Layout>
     </>
   );
