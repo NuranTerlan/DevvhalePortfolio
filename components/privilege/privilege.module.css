@@ -43,5 +43,9 @@
     h1 {
       font-size: 15px;
     }
+
+    .bolt {
+      width: 17px !important;
+    }
   }
 }
