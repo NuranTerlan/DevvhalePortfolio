@@ -4,11 +4,11 @@ import { Quotation } from "../icons";
 
 import styles from "./quote.module.css";
 
-const Quote = ({ children, className, ...props }) => {
+const Quote = ({ quote = true, children, className, ...props }) => {
   return (
     <article className={cn(styles.article, className)} {...props}>
-      <Quotation />
-      {children}
+      {quote && <Quotation />}
+      <h1>{children}</h1>
     </article>
   );
 };
