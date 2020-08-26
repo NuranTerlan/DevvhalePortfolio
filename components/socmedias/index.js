@@ -15,9 +15,11 @@ const SocialMedias = ({ className, ...props }) => {
     <nav className={cn(styles.contacts, className)} {...props}>
       {CONTACTS.map((contact) => {
         return (
-          <Contact aria-label={contact.key} key={contact.key}>
-            {contact.icon}
-          </Contact>
+          <a href={contact.link} target="_blank">
+            <Contact aria-label={contact.key} key={contact.key}>
+              {contact.icon}
+            </Contact>
+          </a>
         );
       })}
     </nav>
