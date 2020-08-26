@@ -23,6 +23,58 @@
   display: flex;
 }
 
+.layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1536px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  background-color: rgba(1, 1, 1, 0.9);
+  margin-left: auto;
+  margin-right: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 650ms;
+
+  .menuModal {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .cancel {
+      font-size: 1.7em;
+      width: 75px;
+      height: 75px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--c-theme);
+    }
+
+    .menu {
+      display: grid;
+      gap: 25px;
+
+      & > * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
 @media (--m) {
   .burger {
     width: 50px;
