@@ -7,7 +7,7 @@ import { Bolt } from "../icons";
 const Privilege = ({ children, className, ...props }) => {
   return (
     <div className={cn(styles.item, className)} {...props}>
-      <Bolt className={styles.bolt} />
+      <Bolt />
       {children}
     </div>
   );
