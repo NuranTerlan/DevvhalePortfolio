@@ -40,21 +40,26 @@ export const CONTACTS = [
   {
     key: "telegram",
     icon: <TelegramOriginal />,
+    link: "https://t.me/devvhale13",
   },
   {
     key: "linkedin",
     icon: <LinkedinOriginal />,
+    link: "https://www.linkedin.com/in/nuran-t%C9%99rlan-3744a71a3/",
   },
   {
     key: "instagram",
     icon: <InstagramOriginal />,
+    link: "https://www.instagram.com/nuranterlan/",
   },
   {
     key: "github",
     icon: <GithubOriginal />,
+    link: "https://github.com/NuranTerlan",
   },
   {
     key: "facebook",
     icon: <FacebookOriginal />,
+    link: "https://www.facebook.com/devvhale/",
   },
 ];
