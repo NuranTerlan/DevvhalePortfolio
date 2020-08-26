@@ -12,11 +12,11 @@
     height: 60px;
     border-radius: 99px;
     border: 1px solid var(--c-theme);
+    background: var(--c-primary);
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    color: (--c-theme);
   }
 
   .line {
