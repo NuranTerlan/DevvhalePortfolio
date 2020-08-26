@@ -131,12 +131,10 @@ const HomePage = () => {
         <Bound />
         <Section className={styles.section5}>
           <Quote>
-            <h1>
-              Your orders aren’t just revenue for me ! They are support, moral
-              and experience for my future as well ...
-              <br />
-              <span className="white">- Nuran Terlan</span>
-            </h1>
+            Your orders aren’t just revenue for me ! They are support, moral and
+            experience for my future as well ...
+            <br />
+            <span className="white">- Nuran Terlan</span>
           </Quote>
         </Section>
       </Layout>
