@@ -7,6 +7,8 @@ import Bound from "./../components/bound";
 import Title from "./../components/title/index";
 import Quote from "./../components/quote/index";
 
+import styles from "./../page-styles/about.module.css";
+
 const AboutMe = () => {
   return (
     <>
@@ -24,7 +26,12 @@ const AboutMe = () => {
       </Head>
 
       <Layout>
-        <Section></Section>
+        <Section>
+          <h1>
+            <span className="theme">About me</span> and everything about my{" "}
+            <span className="pink">programming improvement</span> !
+          </h1>
+        </Section>
       </Layout>
     </>
   );
