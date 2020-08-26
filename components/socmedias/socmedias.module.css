@@ -64,7 +64,7 @@
 
     .menu {
       display: grid;
-      gap: 25px;
+      gap: 20px;
 
       & > * {
         display: flex;
