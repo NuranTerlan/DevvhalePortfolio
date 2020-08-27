@@ -54,7 +54,7 @@ const HomePage = () => {
         <Bound isDown />
         <Section className={styles.section2}>
           <h1>
-            Static Websites for your <span className="theme">Portfolio</span>,
+            Static Websites for your <span className="theme">Portfolio</span>,{" "}
             <span className="theme">Fitness Coaching Contact</span> or{" "}
             <span className="theme">Product Promotion</span> with
           </h1>
