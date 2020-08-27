@@ -1,6 +1,6 @@
 .section1 {
   .extrainfo {
-    margin-top: 40px;
+    margin-top: 30px;
     h1 {
       font-size: 25px;
     }
@@ -25,6 +25,11 @@
         font-size: 1.5em !important;
         width: 23px !important;
         height: 23px;
+      }
+
+      button {
+        background-color: var(--c-theme);
+        color: var(--c-primary);
       }
     }
 
@@ -51,6 +56,7 @@
     padding-right: 15px;
     .cards {
       grid-template-columns: repeat(2, minmax(320px, 1fr));
+      justify-items: center;
     }
   }
 
@@ -68,7 +74,10 @@
 @media (--m) {
   .section1 {
     .extrainfo {
-      margin-top: 30px;
+      margin-top: 20px;
+      h1 {
+        font-size: 20px;
+      }
     }
     .cards {
       grid-template-columns: repeat(1, minmax(320px, 1fr));

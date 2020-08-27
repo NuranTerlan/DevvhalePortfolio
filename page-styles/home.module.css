@@ -50,6 +50,7 @@
 }
 
 .section3 {
+  display: grid;
   grid-template-columns: 500px 1fr;
   gap: 19px;
 

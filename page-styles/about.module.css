@@ -1,0 +1,202 @@
+.section1 {
+  .subSection {
+    grid-template-columns: 418px 1fr;
+    gap: 100px;
+
+    article {
+      h1 {
+        text-align: end;
+        font-size: 48px;
+      }
+    }
+  }
+}
+
+.section2 {
+  .subSection {
+    grid-template-columns: 1fr 429px;
+    gap: 80px;
+
+    .skills {
+    }
+  }
+}
+
+.section3 {
+  svg {
+    path {
+      fill: var(--c-pink);
+    }
+  }
+}
+
+.section4 {
+  .subSection {
+    gap: 30px;
+
+    a {
+      text-decoration: none;
+      justify-self: center;
+    }
+
+    .job {
+      font-size: 15em;
+      margin-top: 30px;
+    }
+  }
+}
+
+.section5 {
+  margin-bottom: var(--s-layout-gap);
+
+  .subSection {
+    gap: 10px;
+
+    .hobbylist {
+      display: flex;
+      flex-direction: row;
+      justify-self: center;
+      align-self: center;
+
+      & > div {
+        width: 60px;
+        height: 60px;
+        border-radius: 99px;
+        background-color: rgba(116, 117, 118, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & + div {
+          margin-left: 20px;
+        }
+
+        svg {
+          font-size: 1.8em;
+        }
+      }
+    }
+  }
+
+  .sub1 {
+    grid-template-columns: 500px 1fr;
+  }
+
+  .sub2 {
+    grid-template-columns: 1fr 500px;
+  }
+
+  .shortBound {
+    & > div {
+      max-width: 856px;
+    }
+  }
+}
+
+@media (--t) {
+  .section1 {
+    .subSection {
+      padding-left: 15px;
+      padding-right: 15px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+
+      gap: 80px;
+    }
+  }
+
+  .section2 {
+    .subSection {
+      padding-left: 15px;
+      padding-right: 15px;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 150px;
+
+      gap: 50px;
+    }
+  }
+
+  .section4 {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .subSection {
+      gap: 25px;
+
+      .job {
+        font-size: 10em;
+        margin-top: 25px;
+      }
+    }
+  }
+
+  .section5 {
+    .subSection {
+      .hobbyIllustration {
+        font-size: 10em !important;
+      }
+    }
+
+    .sub1 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 150px;
+    }
+
+    .sub2 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 150px;
+
+      .hobbylist {
+        order: 1;
+      }
+    }
+  }
+}
+
+@media (--m) {
+  .section1 {
+    .subSection {
+      & > div {
+        justify-self: center;
+      }
+
+      article {
+        h1 {
+          font-size: 30px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .section2 {
+    .subSection {
+      .skills {
+        display: grid;
+      }
+
+      .skillIllustration {
+        font-size: 12em !important;
+      }
+    }
+  }
+
+  .section5 {
+    .subSection {
+      .hobbylist {
+        & > div {
+          width: 50px;
+          height: 50px;
+
+          & + div {
+            margin-left: 15px;
+          }
+
+          svg {
+            font-size: 1.5em;
+          }
+        }
+      }
+    }
+  }
+}
