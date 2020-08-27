@@ -33,10 +33,13 @@ const SocialMedias = ({ className, ...props }) => {
     <nav className={cn(styles.contacts, className)} {...props}>
       {CONTACTS.map((contact) => {
         return (
-          <a href={contact.link} target="_blank" rel="noopener">
-            <Contact aria-label={contact.key} key={contact.key}>
-              {contact.icon}
-            </Contact>
+          <a
+            key={contact.key}
+            href={contact.link}
+            target="_blank"
+            rel="noopener"
+          >
+            <Contact aria-label={contact.key}>{contact.icon}</Contact>
           </a>
         );
       })}
@@ -56,10 +59,13 @@ const SocialMedias = ({ className, ...props }) => {
           <div className={styles.menu}>
             {CONTACTS.map((contact) => {
               return (
-                <a href={contact.link} target="_blank" rel="noopener">
-                  <Contact aria-label={contact.key} key={contact.key}>
-                    {contact.icon}
-                  </Contact>
+                <a
+                  key={contact.key}
+                  href={contact.link}
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <Contact aria-label={contact.key}>{contact.icon}</Contact>
                 </a>
               );
             })}
