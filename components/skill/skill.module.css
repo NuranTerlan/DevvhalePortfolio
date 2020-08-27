@@ -1,0 +1,36 @@
+.item {
+  height: 60px;
+  padding: 25px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 99px;
+  background-color: rgba(240, 245, 249, 0.2);
+  margin-right: 15px;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
+
+  h1 {
+    font-size: 30px;
+    margin-left: 25px;
+  }
+
+  svg {
+    font-size: 1em;
+  }
+}
+
+@media (--t) {
+  .item {
+    h1 {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (--t) {
+  .item {
+    h1 {
+      font-size: 20px;
+    }
+  }
+}
