@@ -4,11 +4,11 @@ import cn from "classnames";
 import styles from "./bound.module.css";
 import { ChevronDown } from "../icons";
 
-const Bound = ({ isDown = false, className }) => {
+const Bound = ({ isPink = false, isDown = false, className }) => {
   return (
     <div className={cn(styles.container, className)}>
       {isDown && (
-        <span className={styles.down}>
+        <span className={cn([styles.down, isPink && styles.pink])}>
           <ChevronDown />
         </span>
       )}

@@ -19,6 +19,16 @@
     align-items: center;
   }
 
+  .pink {
+    border: 1px solid var(--c-pink);
+
+    svg {
+      path {
+        fill: var(--c-pink);
+      }
+    }
+  }
+
   .line {
     width: 100%;
     height: 1px;
