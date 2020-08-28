@@ -173,6 +173,7 @@
     .subSection {
       .skills {
         display: grid;
+        gap: 20px;
       }
 
       .skillIllustration {
