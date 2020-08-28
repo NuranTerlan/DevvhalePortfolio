@@ -27,8 +27,12 @@
   }
 }
 
-@media (--t) {
+@media (--m) {
   .item {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
     h1 {
       font-size: 20px;
     }
