@@ -3,7 +3,7 @@
   height: 50px;
   border-radius: 99px;
   background-color: var(--c-primary-70);
-  dispay: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   transition: all 300ms;
