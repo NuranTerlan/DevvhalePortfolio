@@ -32,10 +32,6 @@ const HomePage = () => {
           content="This is the official Promotional Website of DEVVHALE. DEVVHALE is a new brand. Creator and Founder of that brand is Nuran Terlan from Azerbaijan !"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="google-site-verification"
-          content="iKC2hErCRhHDyAcM9g93KcaEYgPDTORTKjsCf6nzYas"
-        />
       </Head>
 
       <Layout>
