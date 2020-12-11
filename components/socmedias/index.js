@@ -55,7 +55,7 @@ const SocialMedias = ({ className, ...props }) => {
         onClick={() => toggleMediaModal()}
       >
         <div className={styles.menuModal}>
-          <h1>Social Medias</h1>
+          <h1>Social Media</h1>
           <div className={styles.menu}>
             {CONTACTS.map((contact) => {
               return (
